@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Games daHora</title>
+        <meta name="description" content="Tudo e mais um pouco sobre o universo Gamer!"/>
+        <meta name="keyword" content="Guerra, Luta, Aventura, RPG, Ação, Terror"/>
+        <meta name="author" content="Luiz Braz"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="menu">
+                <a href="index.html">Home</a>
+                <a href="Aba jogos de ação">Ação</a>
+                <a href="Aba jogos de aventura">Aventura</a>
+                <a href="Aba jogos de guerra">Guerra</a>
+                <a href="Aba jogos de luta">Luta</a>
+                <a href="Aba jogos de RPG">RPG</a>
+                <a href="Aba jogos de terror">Terror</a>
+                <a href="Aba ver mais opções de jogos">Ver mais</a>
+            </nav>
+            <hr style="width:100%;height:3px;background-color: mediumblue; ">
+            <h1>Bem vindos ao maior site de Games da atualidade.</h1>
+            <h2>Abra seu leque de Games!</h2>
+            <hr style="width:100%;height:3px;background-color: mediumblue; ">
+        </header>
+        <section>
+            <div style="float:right">
+                <label for="search-example">Pesquisar</label>
+                <input type="search" id="search-example">
+        </section>
+        <figure class="banner-home">
+            <img src="lol.jpg.jpg"
+                alt="banner da home" width="50%">
+                <figcaption>League of Legends</figcaption>
+        </figure>
+        <hr><br>
+        <audio controls autoplay muted played>
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+        <hr><br>
+            <h3>Mais acessados</h3>
+            <p>Nessa semana tivemos um grande destaque nos jogos de ação, dentre eles os mais acessados foram Counter Strike 1.6, Battle Field e Warzone.</p>
+            <article>
+                <h3>Dicas</h3>     
+                    <p>Se o seu computador não é apropriado para games de alta perfomance, não se procupe! Temos os jogos leves e de qualidade para você!.</p>   
+                </article>
+            <h1>Top Downloads</h1>
+            <h3>Counter Strike 1.6</h3>
+            <h3>Mu Away</h3>
+            <h3>Tíbia</h3>
+            <h3>Ace of Spades</h3>
+            <h3>Half Life</h3>
+            <h4>Preencha os dados e fique por dentro das novidades</h4>
+            
+        <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" maxlength="15" required autocomplete>
+            <hr><br>
+           <label for="email">Email</label>
+           <input type="email" id="email-example">
+           <hr><br>
+            <label for="number">Celular</label>
+            <input type="tel" id="number">
+            <p>Registre sua senha</p>
+            <label for="password">Senha</label>
+            <input type="password" id="password">
+            <hr><br>
+            <p>Resposta secreta</p>
+            <label for="Botão">Abacaxi</label>
+            <input type="radio" id=botão>
+            <hr><br>
+            <label for="Botão">Banana</label>
+            <input type="radio" id=botão>
+            <hr><br>
+            <label for="Botão">Abacate</label>
+            <input type="radio" id=botão>
+            <hr><br>
+            <label for="Botão">Uva</label>
+            <input type="radio" id=botão>
+            <hr><br>
+            <label for="Botão">Mamão</label>
+            <input type="radio" id=botão>
+            <hr><br>
+            <label for="date-example">Data de nascimento</label>
+            <input type="date" id="date-example">
+            <hr><br>
+            <label for="check-boxexample">Selecione o Checkbox para verificar que você não é um robô</label>
+            <input type="checkbox" id="check-boxexample">
+            <hr><br>
+            <label for="range">Avaliação do site</label>
+            <input type="range" id="range">
+            <hr><br>
+            <input type="button" value="Salvar">
+            <hr><br>
+            <input type="submit" id="btn-enviar" name="btn-enviar" required>
+        </form>
+        <footer>
+            <div style="float:left">
+                <p>Autor: Luiz Braz</p>
+            </div>
+            <div style="float:right">
+                <p>Outubro de 2021</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
